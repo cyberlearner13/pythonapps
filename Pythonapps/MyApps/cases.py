@@ -31,4 +31,6 @@ pascal.grid(row=2, column=2)
 extra= Label(window,text=" ",width=5)
 extra.grid(row=2, column=3,columnspan=2)
 
+print('choice: ',v)
+
 window.mainloop()

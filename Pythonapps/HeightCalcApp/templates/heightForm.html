@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Average Height Calculator</title>
+    <link rel="stylesheet" href="../static/main.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Collecting Heights</h2>
+        <p>Please fill the entries to get population statistics on height</p>
+        <form action={{url_for("success")}} method="POST">
+            <input type="email" placeholder="Enter your email address" title="Your email will be safe with us" name="email" required><br>
+            <input type="number" placeholder="Enter your height in cm" min="50" max="300" title="Your data will be safe with us" name="height" required><br>
+            <button class="btn-sub">Submit</button>
+        </form>
+    </div>
+</body></html>
